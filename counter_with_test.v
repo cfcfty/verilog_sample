@@ -27,10 +27,10 @@ module testbench ();
 	reg [3:0] counter_test;
 
 	counter test1(
-				.clk(clk), 
-				.rst(reset), 
-				.counter(counter_test)
-				);
+			.clk(clk), 
+			.rst(reset), 
+			.counter(counter_test)
+			);
 
 	initial
 	begin
